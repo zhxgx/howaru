@@ -1,0 +1,824 @@
+/*======================================
+Theme Name: Eg+
+Theme URI: https://divicake.com/
+Description: Version:2018 November
+Version: 1.0
+Author: Eg+
+Author URI: https://divicake.com/
+Template: Divi
+======================================*/
+
+
+/* You can add your own CSS styles here. Use !important to overwrite styles if needed. */
+
+#footer_column1 {width: 16%; float:left; margin-left:100px;}
+#footer_column2   {width: 21%; float:left; }
+#footer_column3  {width: 13%; float:left; }
+#footer_column4  {width: 20%;float:left; }
+#footer_column5  {width: 13%; float:left;}
+
+.footer_column .et_pb_blurb_position_left .et_pb_blurb_container {padding-left: 2px}
+.footer_column .et_pb_blurb_description {margin-left: -30px; margin-top:-5px}
+.footer_column .et_pb_module_header {margin-left: -15px; padding-bottom:0px}
+
+#footer-widgets {
+	background-color:#515151;
+	padding:35px 0;
+}
+#footer-widgets .footer-widget li:before {
+    position: absolute;
+    top: 1px;
+    background: url(http://www.howaru.com/wp-content/uploads/2018/11/footer_right_arrow.png);
+    left: 0;
+    width: 15px;
+    height: 18px;
+	border-style: none;
+    -moz-border-radius: 3px;
+    content: "";
+}
+
+#footer-bottom {
+    background-color: black;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#nav_menu-3 {margin-left:100px;}
+.sub-menu {font-size:14px;}
+#menu-item-971 {font-size:20px}
+
+.foot-notes {font-size:10px; line-height:18px; /*text-align:justify;*/ }
+.foot-notes ul li {font-size:14px; line-height:18px;  /*text-align:justify;*/ }
+.foot-notes ol li {font-size:14px; line-height:18px;  /*text-align:justify;*/}
+.foot-notes a {font-size:14px; line-height:18px;  /*text-align:justify;*/}
+.foot-notes p, .plainText .foot-notes p {font-size:14px!important; line-height:18px; text-align:justify; padding-bottom:1em;}
+.foot-notes p:last-child, .plainText .foot-notes p:last-child {padding-bottom:0px;}
+/*Jennifer Home page css*/
+
+.home-hero-sec .et_pb_column_1_3 {border-right:1px solid #fff;}
+.home-hero-sec .et_pb_column_1_3 .et_pb_post .entry-title, .home-hero-sec .et_pb_column_1_3 .et_pb_post {margin-bottom:5px;margin-top:0px;}
+.home-hero-sec .et_pb_column_1_3 .et_pb_text, .home-hero-sec .et_pb_column_1_3 .et_pb_posts {min-height:78px;}
+.home-hero-sec .et_pb_column_1_3 .et_pb_text {display:table;}
+.home-hero-sec .et_pb_column_1_3 .et_pb_text .et_pb_text_inner {display:table-cell; vertical-align:middle;}
+.home-hero-sec .et_pb_column_1_3 .post-content {display:none}
+.home-hero-sec .et_pb_column_1_3:nth-child(3) {border-right:none !important;} 
+
+.home-hero-sec .et_pb_post .entry-title { 
+	background: url('http://www.howaru.com/wp-content/uploads/2018/11/blog-dots.png') no-repeat;
+	background-position: 0 -20px;
+	padding-left:20px;
+	padding-bottom:0px;
+	margin-bottom:10px;
+}
+.home-hero-sec .et_pb_post .entry-title:hover {
+	background: url('http://www.howaru.com/wp-content/uploads/2018/11/blog-dots-hover.png') no-repeat;
+	background-position:0px 0px;
+}
+
+.home-hero-sec{
+	height:119px;
+	margin-top:-119px;
+	}
+
+.et_pb_post_slider .et_pb_slide_content, .et_pb_column .et_pb_slider_fullwidth_off .et_pb_slide_content {display:none;}
+@media (min-width: 981px) and (max-width: 1280px){
+	.et_pb_gutters3 .et_pb_column_3_4, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 {
+    padding-right: 15px;
+	}
+	.container.et_menu_container {padding-right:15px;}
+	#footer-info {padding-left:15px;}
+	.onimage_title_page h2 {font-size:48px;}
+	
+	.et_pb_section.naturesWayTexts {padding-left:15px !important; padding-right:15px !important;}
+}
+@media only screen and (min-width:981px) {
+	.home-hero-sec .et_pb_column_1_3 .et_pb_post .entry-title {    
+		max-width: 390px;
+		margin-left: 10px;
+		/*white-space: nowrap;*/
+		overflow: hidden;
+		text-overflow: ellipsis;
+		   font-size: 16px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	height:42px;
+	}
+	.home-hero-sec .et_pb_column {height:89px;}
+}
+
+@media only screen and (max-width: 980px){
+.home-hero-sec .et_pb_column_1_3 .et_pb_text, .home-hero-sec .et_pb_column_1_3 .et_pb_posts {min-height:0px;}
+.home-hero-sec{
+	height:auto;
+	min-height:260px;
+	margin-top:-260px;
+	}
+div.et_pb_section.et_pb_section_0.hero-banner {
+	background-image: url(http://www.howaru.com/wp-content/uploads/2018/11/hero-home-mobile.jpg) !important;
+	height:717px;
+	}
+.home-hero-sec .et_pb_column {margin-bottom:0px;}
+.home-hero-sec .et_pb_column_1_3 {border-right:none;}
+	
+.prd_sliders .et_pb_column_1_3 {width:33.3%;}
+.prd_sliders-mobile .et_pb_post_slider_0 .et_pb_slide:not(.et_pb_slide_with_no_image) { height:300px;}	
+		.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {padding:0;}
+	.et_pb_slide_description .et_pb_slide_title a, .et_pb_slider_fullwidth_off .et_pb_slide_description .et_pb_slide_title a{padding: 16% 8%; display:block;}
+}
+
+@media only screen and (max-width: 767px){
+	.home-hero-sec .et_pb_post .entry-title {margin-bottom:8px;}
+div.et_pb_section.et_pb_section_0.hero-banner {
+	background-image: url(http://www.howaru.com/wp-content/uploads/2018/11/hero-home-mob.jpg) !important;
+	height:642px;
+	}
+.prd_sliders .et_pb_column_1_3 {width:100%;}	
+.prd_sliders-mobile .et_pb_post_slider_0 .et_pb_slide:not(.et_pb_slide_with_no_image) { height:380px;}	
+	
+	.home-hero-sec .et_pb_column_1_3 .et_pb_post .entry-title {
+	width:98%;
+    margin-left: 10px;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	font-size:16px !important;}
+}
+
+
+.blog_title_hover .entry-title {
+	position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+	background:rgba(0,0,0,0.3);
+	word-spacing: 280px;
+	}
+
+.blog_title_hover .entry-title a {padding: 40% 20px; display:block;}
+
+.blog_title_hover .post-content {display:none;}
+
+.blog_title_hover .entry-title span {font-size:0.8em;}
+
+/*#product_page .blog_title_hover .entry-title {
+	padding: 35% 0px;
+}*/
+
+#product_page .blog_title_hover .entry-title a {padding: 35% 0px; display:block;}
+
+sup {bottom: 0.45em;font-size: 0.65em;}
+
+@media only screen and (min-width:1280px) {
+	.hcp-img-texts {padding-left:126px;}
+	.carousel_section {height:380px;}
+}
+
+@media only screen and (max-width:1279px) {
+	.carousel_section {height:295px;}
+	.blog_title_hover .entry-title a {padding:35% 20px;}
+}
+
+/*======================================
+ * common css
+ * ======================================*/
+/* Below Charles's update to the font-size global reduction */
+/*
+body{overflow-x: hidden;}
+.en{font-family: 'diodrum-medium',Helvetica,Arial,Lucida,sans-serif;}
+.txt_img_50_50 .en{font-family: 'diodrum-medium',Helvetica,Arial,Lucida,sans-serif;}
+.txt_img_50_50 .box_50_50 h5, .txt_100 h5{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 20px; padding-bottom:10px;letter-spacing:0px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 h4, .txt_100 h4{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 30px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 h3, .txt_100 h3{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 32px; padding-bottom:20px;letter-spacing:0px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 p, .txt_100 p{font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; font-size: 16px; line-height:1.5em;letter-spacing:0px; text-shadow:none; }
+.txt_img_50_50 img{width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_gutters1{display:table;}
+.txt_img_50_50 .box_50_50 .et_pb_column{display:table-cell; vertical-align:middle; width:50%; float:none;}
+.txt_img_50_50 {box-shadow:none;}
+.txt_img_50_50 .box_50_50 .social_text{ margin-bottom:0px;}
+.txt_img_50_50 .box_50_50 .social_icon{width:19%; margin-bottom:0px; vertical-align: bottom;}
+.plainText{padding:45px 0px 0px;}
+.plainText h3{font-size: 32px; font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; padding-bottom:50px;}
+.plainText h5{font-size:16px; padding-bottom:10px;}
+.plainText p, .plainText table{font-size: 16px; font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; padding-bottom:25px; }
+.plainText li {font-size: 16px; font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; }
+.plainText ul {padding-bottom:25px;}
+.plainText .table-comment{font-size: 16px; padding-right:30px; text-align:right;}
+*//********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+body{overflow-x: hidden;}
+.en{font-family: 'diodrum-medium',Helvetica,Arial,Lucida,sans-serif;}
+.txt_img_50_50 .en{font-family: 'diodrum-medium',Helvetica,Arial,Lucida,sans-serif;}
+.txt_img_50_50 .box_50_50 h5, .txt_100 h5{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 18px; padding-bottom:10px;letter-spacing:0px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 h4, .txt_100 h4{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 28px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 h3, .txt_100 h3{font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; font-size: 30px; padding-bottom:20px;letter-spacing:0px; text-shadow:none;}
+.txt_img_50_50 .box_50_50 p, .txt_100 p{font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; font-size: 16px; line-height:1.5em;letter-spacing:0px; text-shadow:none; }
+.txt_img_50_50 img{width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_gutters1{display:table;}
+.txt_img_50_50 .box_50_50 .et_pb_column{display:table-cell; vertical-align:middle; width:50%; float:none;}
+.txt_img_50_50 {box-shadow:none;}
+.txt_img_50_50 .box_50_50 .social_text{ margin-bottom:0px;}
+.txt_img_50_50 .box_50_50 .social_icon{width:19%; margin-bottom:0px; vertical-align: bottom;}
+.plainText{padding:45px 0px 0px;}
+.plainText h3{font-size: 28px; font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif; padding-bottom:30px;}
+.plainText h5{font-size:16px; padding-bottom:10px;}
+.plainText p, .plainText table{font-size: 16px; font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; padding-bottom:25px; }
+.plainText p:last-child {padding-bottom:0px !important;}
+.plainText li {font-size: 16px; font-family: 'diodrum-medium', PingFangSC-Regular, sans-serif; }
+.plainText ul {padding-bottom:25px;}
+.plainText .table-comment{font-size: 16px; padding-right:30px; text-align:right;}
+/********  END OF FIX ***********/
+/*======================================
+ * bussiness form css
+ * ======================================*/
+.form-right , .form-left{
+    float: left;
+    width: 50%;
+}
+.et_pb_contact_form {
+    margin-left: -1.5%;
+}
+.et_pb_contact_select {
+	color:#666;
+	padding: 16px 20px 16px 16px;
+	height:58px;
+}
+/* Below Charles's update to the font-size global reduction */
+/*
+.et_contact_bottom_container{width:100%; float:left; text-align:left;
+padding-top:24px;}
+*/
+/********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+.et_contact_bottom_container{width:100%; float:left; text-align:left;
+padding-top:20px;}
+/********  END OF FIX ***********/
+
+
+.et_pb_contact_form .et_pb_button{padding: 10px 40px; font-size:24px;}
+.et_pb_social_media_follow{text-align:right; font-size: 0px; line-height: 0px !important; margin-left:10px !important; margin-bottom:0px !important;}
+.et_pb_social_media_follow li{margin-left:20px; width:40px; height:40px; margin-bottom:0px;}
+.et_pb_social_media_follow_network_0 a.icon::before{background: url(../../uploads/2018/12/social_linkedIn.png);}
+.et_pb_social_media_follow_network_1 a.icon::before{background: url(../../uploads/2018/12/social_twitter.png);}
+.et_pb_social_media_follow_network_2 a.icon::before{background: url(../../uploads/2018/12/social_wechat.png);}
+.et_pb_social_media_follow li a.icon{width:40px; height:40px;}
+.et_pb_social_media_follow li a.icon::before{ 
+    content: "";
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;  
+}
+.qrcode{
+	/*font-size:0px; line-height:0px;     background: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+	z-index: 100000;*/}
+.qrcode .qrcode_img{width: 119px;
+    height: 119px;
+    top: 50%;
+    margin-top: -60px;
+    }
+/*======================================
+ * header menu css
+ * ======================================*/
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav li {
+    position: static;
+    line-height: 1em;
+}
+.container.et_search_form_container  {
+	height:0px;
+}
+#top-menu li.current-menu-item>a, #top-menu li.current-menu-item>a:hover, #top-menu li.current_page_parent>a, #top-menu li.current_page_parent>a:hover, #top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-ancestor>a:hover{background:rgba(51,51,51,1); color:#ffffff; opacity:1;}
+.nav li ul {
+	width:120%;
+	margin-left:-10%;
+    position: absolute;
+    padding: 20px 0;
+    left: 0;
+	background:#333333;
+	border-top:none;
+	box-shadow: none;
+	margin-top:-1px;
+}
+#top-menu li li{padding: 0 0px;}
+#top-menu li li a {
+    width: 100%;
+    padding: 6px 0px;
+    color: #ffffff;
+}
+#top-menu li li a:hover {
+    color: #2ea3f2;
+}
+
+#top-menu li li.current-menu-item>a, #top-menu li.current-menu-parent li.current-menu-item>a, #top-menu li.current-menu-ancestor li.current-menu-parent>a{
+    color: #2ea3f2;
+}
+#top-menu li li.current-menu-item li a {
+    color: #ffffff;
+}
+#top-menu li li a:before {
+    content: ">";
+    padding-right: 5px;
+}
+#top-menu li>ul.sub-menu{padding-left:11%;}
+
+#top-menu li.current-menu-item.current-menu-ancestor>a{color:rgba(256,256,256,1)}
+
+#main-header {
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+    box-shadow: none; 
+}
+.et_pb_row{width:100%;}
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a{padding:20px 15px;}
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after {
+    content: none;
+}
+/*======================================
+ * header menu 2 Column
+ * ======================================*/
+#top-menu li:nth-child(1) li:nth-child(odd) {
+    width: 20%;
+}
+#top-menu li:nth-child(1) li:nth-child(even) {
+    width: 75%;
+}
+/*======================================
+ * header menu 3 Column
+ * ======================================*/
+#top-menu li:nth-child(2) li:nth-child(3n+1) , #top-menu li:nth-child(5) li:nth-child(3n+1){
+    width: 27%;
+}
+#top-menu li:nth-child(2) li:nth-child(3n+2) , #top-menu li:nth-child(5) li:nth-child(3n+2){
+    width: 23%;
+}
+#top-menu li:nth-child(2) li:nth-child(3n+0) , #top-menu li:nth-child(5) li:nth-child(3n+0){
+    width: 39%;
+}
+/*======================================
+ * header menu 1 Column
+ * ======================================*/
+#top-menu li:nth-child(3) li{
+    width: 100%;
+}
+/*======================================
+ * header menu 1 Column submenu
+ * ======================================*/
+#top-menu li:nth-child(4) ul{overflow-x:hidden;}
+#top-menu li:nth-child(4) li{position:static; width:100%;}
+#top-menu li:nth-child(4) li:nth-child(3n+1){width:30%;}
+#top-menu li:nth-child(4) li:nth-child(3n+2){width:30%;}
+#top-menu li:nth-child(4) li:nth-child(3n+0){width:30%;}
+/*#top-menu li:nth-child(4) li:nth-child(1) ul{left: 310px;
+    right: 0px;
+    top: 1px;
+    padding: 0px;
+    margin: 20px auto;
+    border-left: #999999 solid 1px;}
+#top-menu li:nth-child(4) li:nth-child(1) li{line-height: 1em;}
+#top-menu li:nth-child(4) li:nth-child(1) li:nth-child(odd) {
+    width: 30%;
+	margin-left:25px;
+}
+#top-menu li:nth-child(4) li:nth-child(1) li:nth-child(even) {
+    width: 40%;
+}
+#top-menu li:nth-child(4)>ul {min-height:160px;}*/
+/*
+#et-top-navigation{margin-right:100px;}*/
+.et_menu_container{width:100%; max-width:1000px;}
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-top: 0px;
+}
+.et_header_style_left .logo_container {
+	z-index:-1;
+    top: 0px;
+}
+.et-fixed-header .logo_container {
+    top: 0px;
+}
+.et_fixed_nav.et_show_nav #page-container, .et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container{padding-top:54px;}
+#main-header .et_search_outer{left:0px; top:54px; position:absolute; background:#ffffff; z-index:98;}
+#et_top_search {height:18px; margin:21px 0 0 22px;float:left;}
+.et_pb_menu_hidden #et_top_search #et_search_icon::before{opacity:1;}
+.et_pb_menu_hidden #top-menu{opacity:1;}
+.et-search-form{max-width:645px;}
+.et_search_form_container input{font-size:16px; border:1px solid #9f9f9f; line-height:40px; height:40px; padding-left:13px; padding-right:17px; right:50px;}
+.et-search-form input {right:50px;}
+/* Below Charles's update to the font-size global reduction 
+span.et_close_search_field:after{content: "\55"; width:18px; height:18px; font-size:16px;}
+*/
+/********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+span.et_close_search_field:after{content: "\55"; width:18px; height:18px; font-size:16px;}
+/********  END OF FIXE ***********/
+
+span.et_close_search_field {right:50px; top:7px;}
+#flag{margin: 17px 0 0 34px;
+    width: 30px;
+    height: 20px;
+    float: left;}
+#flag ul{background: #fff;
+    text-align: center;
+	position:relative;
+	}
+#flag .lang_en{padding-bottom: 14px;}
+#flag span{position: relative;}
+#flag li{cursor:pointer;}
+#flag li a{ color: rgba(0,0,0,.6); cursor:pointer;}
+#flag .lang_cn{display:none;
+	border-top: 1px dotted #cccccc;
+    text-align: center;
+    padding: 5px 15px;
+    right: -16px;
+    width: 200%;
+    position: absolute;
+    top: 37px;
+    background: #ffffff;}
+#flag .lang_cn:hover{background:#333333; color:#ffffff;}
+/*#flag span::before{background: url(../../uploads/2018/12/icon_flag.png);  
+	content: "";
+    background-size: contain;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    position:absolute;
+    top:0px;}*/
+.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_split .et-fixed-header #et-top-navigation{padding-top:0px;}
+/*======================================
+ * sidebar css
+ * ======================================*/
+.sidebarLR .barLeft{width:20%;}
+.sidebarLR .barRight{width:80%;}
+.sidebarLR .barRight.globalForm {padding-top:0px;}
+@media (min-width: 981px) {
+.sidebarLR .barLeft {padding-left:15px;}
+}
+.onimage_title_page {
+	padding-left:10px;
+}
+.sidebarLR .barLeft .current-menu-item a{color:#5192C9!important;}
+.et_pb_widget .widget_nav_menu {margin-left:15px;}
+/*======================================
+ * post footer padding
+ * ======================================*/
+#left-area {
+    padding-bottom: 0px;
+}
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a{padding:20px 10px;}
+#et-secondary-nav .menu-item-has-children>a:first-child, #top-menu .menu-item-has-children>a:first-child{padding-right:10px !important;}
+@media only screen and (max-width: 1200px){
+	#top-menu li {
+    padding-right: 14px;
+}
+	.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a{font-size:12px!important;}
+	#top-menu li ul li a {
+    font-size: 12px!important;
+    line-height: 1.5em;
+}
+}
+@media only screen and (max-width: 1100px){
+	#et-secondary-nav .menu-item-has-children>a:first-child, #top-menu .menu-item-has-children>a:first-child {
+    padding-right: 5px !important;
+}
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a{padding:20px 5px;}
+
+}
+@media (min-width: 981px) and (max-width: 1000px){
+/*.txt_img_50_50 .box_50_50 h5, .txt_100 h5{font-size: 12px; padding-bottom:5px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 h3, .txt_100 h3{font-size: 18px; padding-bottom:25px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 p, .txt_100 p{font-size: 12px; line-height:1.25em;letter-spacing:0px;}*/
+#top-menu li {
+    padding-right: 0px;
+}
+
+}
+@media only screen and (max-width: 1024px){
+#flag{margin: 17px 0 0 20px;}
+}
+/* Below Charles's update to the font-size global reduction */
+/*
+@media only screen and (max-width: 980px){
+.txt_img_50_50 .box_50_50 h5, .txt_100 h5{font-size: 16px; padding-bottom:5px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 h3, .txt_100 h3{font-size: 20px; padding-bottom:25px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 p, .txt_100 p{font-size: 16px; line-height:1.25em; padding-bottom:25px;letter-spacing:0px;}
+.txt_100.pb0 p, .txt_img_50_50 .box_50_50 .pb0 p, .txt_img_50_50 .box_50_50 .pb0 ul, .txt_img_50_50 .box_50_50 p:last-child, .txt_100 p:last-child {padding-bottom:0px;}
+.txt_img_50_50 .box_50_50 .et_pb_gutters1{display:block;}
+.txt_img_50_50 .box_50_50 .et_pb_column{display:block; width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_image .et_pb_image_wrap{width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_text{padding: 40px 30px 0px;}
+.txt_img_50_50 .box_50_50 .social_text{width:100%;}
+.txt_img_50_50 .box_50_50 .social_icon{width:100%;padding-top:10px;}
+.et_pb_social_media_follow{text-align:left;}
+.plainText{padding:30px 30px 0 30px !important;}
+.plainText h3{font-size: 20px; padding-bottom:30px;}
+.plainText p{font-size: 16px;}
+.plainText table{font-size:12px;}
+.plainText .table-comment{font-size: 12px;}
+/********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+@media only screen and (max-width: 980px){
+.txt_img_50_50 .box_50_50 h5, .txt_100 h5{font-size: 16px; padding-bottom:5px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 h3, .txt_100 h3{font-size: 18px; padding-bottom:25px;letter-spacing:0px;}
+.txt_img_50_50 .box_50_50 p, .txt_100 p{font-size: 16px; line-height:1.25em; padding-bottom:25px;letter-spacing:0px;}
+.txt_100.pb0 p, .txt_img_50_50 .box_50_50 .pb0 p, .txt_img_50_50 .box_50_50 .pb0 ul, .txt_img_50_50 .box_50_50 p:last-child, .txt_100 p:last-child {padding-bottom:0px;}
+.txt_img_50_50 .box_50_50 .et_pb_gutters1{display:block;}
+.txt_img_50_50 .box_50_50 .et_pb_column{display:block; width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_image .et_pb_image_wrap{width:100%;}
+.txt_img_50_50 .box_50_50 .et_pb_text{padding: 40px 30px 0px;}
+.txt_img_50_50 .box_50_50 .social_text{width:100%;}
+.txt_img_50_50 .box_50_50 .social_icon{width:100%;padding-top:10px;}
+.et_pb_social_media_follow{text-align:left;}
+.plainText{padding:30px 30px 0 30px !important;}
+.plainText h3{font-size: 18px; padding-bottom:30px;}
+.plainText p{font-size: 16px;}
+.plainText table{font-size:10px;}
+.plainText .table-comment{font-size: 10px;}
+/******* END OF FIXE HERE ********************/
+/*======================================
+ * bussiness form css
+ * ======================================*/
+.form-right , .form-left{
+    width: 100%;
+}
+.et_pb_contact_form {
+    margin-left: -3%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Below Charles's update to the font-size global reduction 
+.et_pb_contact_form .et_pb_button{padding: 5px 35px; font-size:16px;}
+*/
+/********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+.et_pb_contact_form .et_pb_button{padding: 5px 35px; font-size:16px;}
+/******* END OF FIXE HERE ********************/
+.et_pb_contact_form .et_contact_bottom_container{float: none; text-align: center;}
+/*======================================
+ * mobile txt white overlay
+ * ======================================*/
+.mobile-txt-overlay-white{
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,255,255,0.65);
+}
+.mobile-txt-overlay-white .et_pb_text_inner h1, .mobile-txt-overlay-white .et_pb_text_inner h2, .mobile-txt-overlay-white .et_pb_text_inner h3, .mobile-txt-overlay-white .et_pb_text_inner h4, .mobile-txt-overlay-white .et_pb_text_inner h5 {color:#5192ca !important;}
+.mobile-txt-overlay-white p {color:#000;}
+	
+	.menu_right{z-index:10;}	
+ .menu_right .et_pb_fullwidth_menu .et_mobile_nav_menu {
+    text-align: right;
+    border-bottom: 2px solid #d1d1d1;
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 10px;
+	background: #ffffff;
+ }
+.menu_right .et_pb_fullwidth_menu .mobile_menu_bar:before {
+    top: 20px;
+	left: -20px;
+}
+.menu_center{ z-index: 11; zoom: 1; margin-top: -42px; margin-bottom: 10px;}
+.menu_center:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu_right .et_pb_fullwidth_menu .et_mobile_menu{top:65px;}
+.et_pb_fullwidth_menu .et_mobile_menu{padding:0 5%;}
+	
+.menu_right .et_pb_fullwidth_menu .et_pb_row{min-height: 68px;}
+#home .et_pb_column {margin-bottom:0;}
+	/**siderbar*/
+.sidebarLR .barLeft{display:none;}
+.sidebarLR .barRight{width:100%;}
+	.sidebarLR .barRight.globalForm {margin-top:0px; padding-top:30px;}
+.sidebarLR .et_pb_widget_area_left {
+	display:none;
+    padding-right: 0px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+/*======================================
+ * header menu
+ * ======================================*/
+#main-header{padding-left:30px; padding-right:30px;}
+#et_top_search {margin: 7px 0 0 12px;}
+#flag {margin: 13px 15px 0 20px;}
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {padding-top: 10px;}
+.et_header_style_left #et-top-navigation .mobile_menu_bar, .et_header_style_split #et-top-navigation .mobile_menu_bar {margin-top:7px;padding-bottom: 17px;}
+#main-header .et_search_outer{top:65px;}
+#flag .lang_cn{top:42px;}
+.brochure-prd h6 {padding: 0 0 30px 30px !important;}
+}
+@media only screen and (max-width: 767px){
+	.mobile-none {display:none;}
+	.txt_img_50_50 .box_50_50 p.mobile-pb0, .txt_100 p.mobile-pb0 {padding-bottom:0;}
+}
+@media only screen and (max-width: 490px){
+	.et_pb_text_inner h1 {font-size:22px;}
+	.entry-content tr td, body.et-pb-preview #main-content .container tr td {padding: 6px 12px;}
+}
+@media only screen and (max-width: 479px){}
+.et_pb_blog_grid h2, .et_pb_post h2 {
+    padding-bottom: 5px;
+	line-height:1.1em;
+}
+@media only screen and (max-width: 420px){
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {padding-left: 157px;}
+.entry-content tr td, body.et-pb-preview #main-content .container tr td {padding: 6px 3px;}
+.txt_img_50_50 .box_50_50 .mobile-txt-overlay-white p{font-size:16px;}
+#content-area table td, #content-area table th, #content-area table tr, #main-content table.cart td, #main-content table.cart th, #main-content table.cart tr, table.cart td, table.cart th, table.cart tr {padding:3px;}
+}
+
+
+
+@media only screen and (max-width: 390px){
+	.et_pb_text_inner h1 {font-size:20px;}
+	.et_pb_slider_container_inner .et_pb_slide_title span {font-size:0.8em;}
+}
+/*======================================
+ * add for vertical center
+ * ======================================*/
+.toVerticalCenter {
+	position: absolute;
+	top:50%;
+	margin-right: 20px;
+	margin-left: 20px;
+	transform: translatey(-50%);
+}
+
+.div12345 {
+	position: relative;
+	min-height:227px;
+}
+
+/*over-writing CSS*/
+.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row, .et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row 
+{width:100%;max-width:1280px;}
+
+.single .et_pb_post, .single .post {margin-bottom:0;padding-bottom:0;}
+#footer-info {float:none;}
+.et_pb_inner_shadow{box-shadow:none;}/*什么是益生菌 content top shadow*/
+
+
+
+
+/*Sidebar text and position fix*/
+
+.et_pb_section.sidebarLR {padding-top:0px;}
+.et_pb_section.sidebarLR .barLeft {padding-top:0px;padding-bottom:0px;margin-top:45px;border-right:1px #ccc solid;}
+.et_pb_section.sidebarLR .barLeft h4.widgettitle { line-height:2em; color:#5192ca; font-family:'diodrum-medium', PingFangSC-Semibold, sans-serif;}
+.et_pb_section.sidebarLR .barLeft li a { color:#000000 !important; font-family:'diodrum-medium', PingFangSC-Regular, sans-serif;}
+.et_pb_section.sidebarLR .barLeft li.current-menu-item>a {color:#5192ca !important;}
+.et_pb_section.sidebarLR .barLeft li {line-height:2em; margin-bottom:0px; min-height:42px;}
+.et_pb_section.sidebarLR .barLeft.widget_nav_menu {margin-bottom:45px; padding-left:15px;}
+
+
+.et_pb_section.sidebarLR ul li ul.sub-menu li {margin-left:12px; margin-bottom:-10px;}
+.et_pb_section.sidebarLR ul li ul.sub-menu li a {font-size:14px;}
+
+
+.txt_img_50_50 .box_50_50.valignTop .et_pb_column {vertical-align:top;}
+
+
+
+
+.et_pb_section h1, .et_pb_section h2, .et_pb_section h3, .et_pb_section h4, .et_pb_section h5 {font-family: 'diodrum-medium', PingFangSC-Semibold, sans-serif;}
+
+.et_pb_section p {font-family:'diodrum-medium', PingFangSC-Regular, sans-serif !important;/*text-align:justify;*/}
+
+.ref p {font-size:10px; line-height:18px; color:#666;}
+#left-area ul, .comment-content ul, .entry-content ul, body.et-pb-preview #main-content .container ul
+{padding:0px 0px 0px 1.2em;}
+#left-area .pb0 ul, .comment-content .pb0 ul, .entry-content .pb0 ul, body.et-pb-preview #main-content .container .pb0 ul
+{padding:0px 0px 0px 1.2em;}
+
+#left-area #footer_content ul, .comment-content #footer_content ul, .entry-content #footer_content ul {padding-left:0px;}
+
+
+.et_pb_column ul li {/*text-align:justify;*/}
+#prd_slide1 {background:#999999;}
+#prd_slide2 {background:#999999;}
+
+
+/*Fixing font issue*/
+.et_builder_inner_content .et_pb_section p {font-family:'diodrum-medium', PingFangSC-Regular, sans-serif !important;}
+.et_pb_blog_2 .et_pb_post .entry-title a, .et_pb_blog_1 .et_pb_post .entry-title a, .et_pb_blog_0 .et_pb_post .entry-title a {font-family:'diodrum-medium', PingFangSC-Semibold, sans-serif;}
+/*.et_pb_blog_1 .et_pb_post .entry-title a {font-family:'diodrum-medium', PingFangSC-Regular, sans-serif;}*/
+
+/* Below Charles's update to the font-size global reduction 
+.et_pb_text_0 h2 {font-family: 'diodrum-medium',PingFangSC-Semibold,sans-serif !important;}
+.et_pb_column ul li {font-family:'diodrum-medium', PingFangSC-Regular, sans-serif;}
+*/
+/********  ORIGINAL VERSION ABOVE ***********/
+/******** REDUCED SIZE VERSION BELOW *********/
+.et_pb_text_0 h2 {font-family: 'diodrum-medium',PingFangSC-Semibold,sans-serif !important;font-size:48px!important; margin-top:33px!important}
+.et_pb_column ul li {font-family:'diodrum-medium', PingFangSC-Regular, sans-serif;font-size:16px!important;line-height:22px;}
+
+/******** END OF FIX ***********/
+
+
+
+.et_pb_module.et_pb_text h1, .et_pb_module.et_pb_text h2, .et_pb_module.et_pb_text h3, .et_pb_module.et_pb_text h4, .et_pb_module.et_pb_text h5, .et_pb_module.et_pb_text p {font-family:'diodrum-medium',PingFangSC-Regular,sans-serif !important;}
+.et_pb_text h6 {font-family:'diodrum-medium',PingFangSC-Regular,sans-serif !important;}
+.et_pb_social_media_follow li.et-social- {display:none;}
+
+.sidebarLR .barRight.globalForm .social_icon {min-width:250px;}
+
+.brochure-prd h6 {font-family: 'diodrum-medium',PingFangSC-Regular,sans-serif !important; font-size: 16px; color: #5091c8;padding:0 0 30px 0;}
+
+/**font-weight issue**/
+#et-top-navigation {font-weight:normal !important;}
+.home-hero-sec .et_pb_posts .et_pb_post .entry-title a {font-weight:normal !important;}
+
+#footer_content h4 strong, #footer-info a{font-weight:normal;}
+
+/********  contact form update ***********/
+
+.et_pb_contact_field_10.et_pb_contact_field .et_pb_contact_field_options_title {display:none;}
+.et_pb_contact_field_8 {width:50% !important;}
+.et_pb_contact_field_8 .et_pb_contact_field_options_wrapper { width: 100%}
+.et_pb_contact_field_8 .et_pb_contact_field_options_wrapper .et_pb_contact_field_options_list span { width: 50%; float: left;}
+@media only screen and (max-width: 420px) {
+.et_pb_contact_field_8 {width:100% !important;}
+	}
+.et_pb_contact_field_9 {width:50% !important;}
+.et_pb_contact_field_9 .et_pb_contact_field_options_wrapper { width: 100%}
+
+
+@media only screen and (max-width: 770px) {
+.et_pb_contact_field_8 {width:100% !important;}
+.et_pb_contact_field_9 {width:100% !important;}
+	}
+
+body #page-container .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button, body #page-container 
+.privatePolicyDavid { color: #2ea3f2 !important; text-decoration-line:none;}
+
+
+/********  menu add contact us button ***********/
+#contact-us{margin: 17px 0 0 5px; float: left;}
+#contact-us a{color: rgba(0,0,0,.6); text-transform: uppercase; cursor: pointer;}
+#contact-us a:before {content: "contact us";}
+#flag{margin: 17px 0 0 5px;}
+#top-menu li {padding-right: 5px;}
+#et_top_search {margin: 21px 0 0 5px;}
+@media only screen and (max-width: 1024px){
+#flag{margin: 17px 0 0 0px;}
+#contact-us{margin: 17px 0 0 0px;}
+#top-menu li {padding-right: 0px;}
+#et_top_search {margin: 21px 0 0 0px;}
+}
+@media only screen and (max-width: 980px){
+#flag {margin: 13px 15px 0 20px;}
+#et_top_search {margin: 7px 0 0 12px;}
+#contact-us {margin: 12px 15px 0 0px;}
+#contact-us a::before {
+    font-family: 'ETmodules';
+    content: "\e010";
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 420px){
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-left: 100px !important;
+}
+#flag {margin: 13px 5px 0 5px;}
+#et_top_search {margin: 7px 0 0 12px;}
+#contact-us {margin: 12px 5px 0 0px;}
+}
+
+/********  ipredirect bar  ***********/
+
+#ipdroplist {background-color:#333; color:white; border-color:white; width:150px; height: 25px;}
+#ipbutton {font-size:12px;color:white!important;background-color:#1482d0;border-color: #1482d0;border-radius: 4px;text-decoration:none;border-width: 1px;border-style: solid; text-align: center !important;padding:3px 20px;}
+#selectdownoption {background-color:#333;}
+@media only screen and (max-width: 980px){
+#ip_redirect .et_pb_column:nth-child(2), #ip_redirect .et_pb_column:nth-child(3) {margin-top:10px;}
+}
+
+@media only screen and (max-width: 479px){
+#ip_redirect .et_pb_column:nth-child(2), #ip_redirect .et_pb_column:nth-child(3) {width:50% !important; margin-top:10px !important;}
+}
+
+/**new sites styles on 20190523**/
+
+.naturesWayTexts .et_pb_column ul li{font-size:16px !important; line-height:32px;}
+.naturesWayTexts .et_pb_text ul {font-weight:normal !important;}
+.naturesWayBtn:hover {background-color:#ea9e47;}
+.naturesWayBtn {background-color: #fbae47;}
+
+.hcp-img-texts {margin-left:126px;}
+
+
